@@ -17,7 +17,7 @@ return (
     <button 
 		className="Rollbutton" 
 		onClick={props.roll_func}
-		disabled={count > 0 ? "true" : ""}
+		disabled={count > 0 ? "disabled" : ""}
 		>
 			{count > 0 ? count : "ROLL!!!"}
     </button>
